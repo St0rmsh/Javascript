@@ -49,10 +49,10 @@ console.log(myarr);
 
 
 // object
-let myObj = {
-    name = sujit,
+/* let myObj = {
+    name = "sujit",
     age = 20,
-}
+}  */
 
 
 // Functions
@@ -61,4 +61,45 @@ const myfunction = function(){
     console.log("Hii");
     
 }
+
+
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive datatype), Heap (Non Primitive)
+
+//stack 
+
+
+
+
+let nam = "Storm"
+let fullname = nam
+fullname = "Shadow"
+
+console.log(fullname);
+console.log(nam);
+
+// Data which are stored in Primitive datatype / Stack always gives copy or  changes which are done in a copy of the file
+
+// Heap 
+ let userone = {
+    
+    email : "user@google.com",
+ 
+ } 
+
+ let usertwo =  userone
+
+ usertwo.email = "Sujit@google.com",
+
+ console.log(userone.email);
+ console.log(usertwo.email);
+ 
+// data which are stored in Non-primitive /heap uses call by Reference or the changes which are done in original file
+ 
+
+
+ 
+
 
