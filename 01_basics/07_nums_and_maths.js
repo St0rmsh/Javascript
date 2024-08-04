@@ -51,7 +51,7 @@ console.log(Math.floor(Math.random() *(max - min + 1) +min));
 // random gives us random values
 // 1 is added so that atleast it give us 1 and not 0
 // here (Math.floor) gives us min vaule (Maths.random) gives us random values (*(max-min +1)) it is given so that the value should be between max and min vaule and (+1) so that atleast it give us 1 and not 0 
-
+// (+min ) gives the min value
 
 
 
