@@ -33,9 +33,15 @@ const beta = {3:"c",4:"d"}
 
 // const gamma = Object.assign({},alpha,beta)
 const gamma  = {...alpha,...beta} // Spread operator important eg : const ex = {...eg1,...eg2}
-console.log(gamma);
+// console.log(gamma);
 
 
 
 
+
+console.log(Object.keys(User));
+console.log(Object.values(User));
+console.log(Object.entries(User));
+
+console.log(User.hasOwnProperty(`email`));// imp  
 
