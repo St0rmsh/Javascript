@@ -39,9 +39,20 @@ const gamma  = {...alpha,...beta} // Spread operator important eg : const ex = {
 
 
 
-console.log(Object.keys(User));
-console.log(Object.values(User));
-console.log(Object.entries(User));
+//console.log(Object.keys(User));
+//console.log(Object.values(User));
+//console.log(Object.entries(User));
 
-console.log(User.hasOwnProperty(`email`));// imp  
+//console.log(User.hasOwnProperty(`email`));// imp  
+
+const Course = {
+    coursename : "Javascript",
+    courseprice : "799"
+}
+
+const {coursename: name} = Course // {before name: after name  } it changes the name or destructure 
+console.log(name);
+
+const {courseprice} = Course
+console.log(courseprice);
 
