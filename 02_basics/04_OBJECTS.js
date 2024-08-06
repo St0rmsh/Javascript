@@ -31,8 +31,8 @@ const User = {
 const alpha = {1:"a",2:"b"}
 const beta = {3:"c",4:"d"}
 
-const gamma = Object.assign({},alpha,beta)
-
+// const gamma = Object.assign({},alpha,beta)
+const gamma  = {...alpha,...beta} // Spread operator important eg : const ex = {...eg1,...eg2}
 console.log(gamma);
 
 
