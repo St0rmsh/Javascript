@@ -60,7 +60,7 @@ const multitwo = (num1,num2) =>  num1 * num2 // Implicte Arrow function
 console.log(multitwo(888888898766,6));
 
 
-// *** ( {} ) when we use curly brackets we have to use return if we dont use {} then no need use return 
+// *** ( {} ) when we use curly brackets we have to use return if we dont use {} then no need use return  we can use () like in above program
 
 
 
