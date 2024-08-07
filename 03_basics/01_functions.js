@@ -68,3 +68,14 @@ function object(anyobject){
     
 }
 object(user)
+
+
+
+
+const newArr = [200,400,800,900]
+
+function Array(getArray){
+    return getArray[1]
+}
+
+console.log(Array(newArr));
