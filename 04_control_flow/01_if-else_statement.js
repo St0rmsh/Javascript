@@ -62,3 +62,15 @@ if(phone && phone_case){
    
 }
 
+// || (OR) statement here if only one statement is correct then if satement 
+
+const email_logged_in = false
+const gmail_logged_in = false
+if(email_logged_in || gmail_logged_in){
+   console.log("welcome user");
+   
+}else{
+   console.log("please sign in");
+   
+}
+
