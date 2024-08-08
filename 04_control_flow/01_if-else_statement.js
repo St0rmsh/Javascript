@@ -48,3 +48,17 @@ else {
     
  
  }
+
+ // && statement in if-else statement
+
+ const phone = true
+ const phone_case = false
+if(phone && phone_case){
+   console.log("yes you bought both of them");
+   
+
+}else{
+   console.log("No you only bought only one of them ");
+   
+}
+
