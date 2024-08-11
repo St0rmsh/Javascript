@@ -1,3 +1,5 @@
+// DOCUMENT OBJECT MODEL (DOM)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,17 +25,40 @@
 </body>
 <script>
     const doc = document.querySelector('.parent')
-    console.log(doc);
-    console.log(doc.children[2].innerHTML);
+    // console.log(doc);
+    // console.log(doc.children[2].innerHTML);
 
     for (let i = 0; i < doc.children.length; i++) {
-        doc.children[6].innerHTML
+        console.log(doc.children[i].innerHTML)
+        
+        
         
         
     }
+    doc.children[2].style ="color : red"
+    // console.log(doc.firstElementChild);
+    // console.log(doc.lastElementChild);
+    //const du = document.querySelector('.day')
+    // console.log(du.parentElement);
+    // console.log(du.nextElementSibling);
+    console.log("NODES:",doc.childNodes);
+    
+
+
+    
+    
+    
+    
+    doc.children[1].style ="color : blue"
+    doc.children[0].style ="color : orange"
+    doc.children[3].style ="color : yellow"
+    doc.children[4].style ="color : violet"
+    doc.children[5].style ="color : green"
+    doc.children[6].style ="color : Indigo"
 
     
 
     
 </script>
+    
 </html>
