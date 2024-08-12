@@ -24,6 +24,10 @@ button.forEach( function (button){
             body.style.backgroundColor =' green'
             
         }
+        if ( n.target.id === 'white' ) {
+            body.style.backgroundColor =' white'
+            
+        }
         
         
 
