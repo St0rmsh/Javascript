@@ -1,0 +1,21 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0px 0px 0px;
+    flex-direction: column;
+
+}
+#clock{
+    font-size: larger;
+    background-color: orange;
+    padding: 20px 20px 20px 30px;
+    margin-top: 19px;
+    border-radius: 12px;
+
+}
+
+.Clock{
+    background-color: #212121;
+    color: #fff;
+}
