@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-    <nav class="nav">
-        <a href="https://www.youtube.com/shorts/WPUeremJHvU">Click Me</a>
-    </nav>
     <div id="sem">
         <h1>Guess a number</h1>
         <p>Try and guess a random number between 1 and 100.</p>
