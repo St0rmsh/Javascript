@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+c<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,9 +24,15 @@
 
 
     </div>
-    <script src = "script.js"></script>
     
     
     
 </body>
 </html>
+
+
+
+=============================================CSS=======================================================
+
+
+
