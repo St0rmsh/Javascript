@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="clock.css">
 </head>
 <body class="Clock">
-    <nav class="nav">
-        <a target="_blank" href="https://www.youtube.com/shorts/ddhllkefysc?feature=share">GO Baby</a>
-    </nav>
+    c
     <div class="center">
     <div id ="banner"><span> Your current time is </span></div>
     <div id="clock"></div>
